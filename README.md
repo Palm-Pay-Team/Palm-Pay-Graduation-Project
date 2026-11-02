@@ -1,81 +1,84 @@
-
 # Palm Pay
+## Secure Contactless Palm-Based Payment System Using Multimodal Biometric Authentication
 
-### Secure Contactless Palm-Based Payment System Using Multimodal Biometric Authentication
+### Project Overview
+Palm Pay is an academic graduation project that aims to develop a secure, contactless payment system using multimodal palm biometrics.
 
-## About the Project
+The system explores the use of two biometric modalities:
+- **Palmprint Recognition:** Identifying individuals through the unique patterns on the palm surface.
+- **Palm Vein Recognition:** Using vein patterns beneath the skin as an additional biometric modality.
 
-Palm Pay is a graduation project that aims to develop a secure contactless palm-based payment system using multimodal biometric authentication.
+The project aims to combine these modalities to support reliable identity verification and secure payment authorization.
 
-The system combines palmprint and palm vein recognition to provide secure and reliable user authentication for contactless payments.
+### Project Objectives
+- Develop a contactless palm image acquisition process.
+- Explore palmprint and palm vein recognition techniques.
+- Investigate multimodal biometric fusion.
+- Implement liveness detection and anti-spoofing mechanisms.
+- Protect biometric templates and sensitive user information.
+- Develop a simulated digital wallet and payment workflow.
+- Record transactions and support basic risk and fraud checks.
+- Integrate the system components into a unified application.
 
-## Project Objectives
-
-- Contactless palm image acquisition.
-- Palmprint recognition.
-- Palm vein recognition.
-- Multimodal biometric fusion.
-- Liveness detection and anti-spoofing.
-- Secure user authentication.
-- Virtual wallet and payment simulation.
-- Transaction monitoring and security.
-
-## Project Tracks
+### Main Project Components
 
 | Track | Responsibilities |
 |---|---|
-| Backend | APIs, database, and business logic |
-| Frontend | Application interface |
-| UI/UX | User experience and interface design |
-| AI | Palmprint, palm vein, fusion, and liveness |
-| Security | Authentication, encryption, and protection |
-| Networking | Network architecture and communication |
-| Embedded | Raspberry Pi, cameras, and hardware integration |
+| AI | Palmprint and palm vein processing, recognition models, biometric fusion, and evaluation |
+| Backend | APIs, database, user management, wallet logic, and transaction processing |
+| Frontend | User interface implementation and integration with backend services |
+| UI/UX | User experience research, interface design, and prototypes |
+| Security | Biometric template protection, authentication security, and anti-spoofing |
+| Networking | Communication between system components and network configuration |
+| Embedded Systems | Camera integration, image acquisition, and hardware setup |
 
-## Repository Structure
+### Technology Areas
+The project may involve the following technology areas, depending on implementation and evaluation:
 
-- Backend/
-- Frontend/
-- UI-UX/
-- AI/
-- Security/
-- Networking/
-- Embedded/
-- Docs/
+- Python and Computer Vision
+- Machine Learning and Deep Learning
+- Image Processing
+- Backend and Frontend Development
+- Database Management
+- Embedded Systems
+- Biometric Security
 
-## Branch Strategy
+### Dataset and Research
+The project uses the **Tongji Contactless Palmprint and Palm Vein Dataset** as an initial research dataset.
 
-- main: Stable project version.
-- develop: Integration and testing.
-- backend: Backend development.
-- frontend: Frontend development.
-- ui-ux: UI/UX design.
-- ai: Artificial Intelligence development.
-- security: Security implementation.
-- network: Networking development.
-- embedded: Embedded Systems development.
+Dataset source: https://cslinzhang.github.io/ContactlessPalm/
 
-## Development Workflow
+Additional datasets or collected samples may be considered during later stages, subject to availability and compatibility.
 
-1. Work on the assigned track branch.
-2. Create a feature branch for each task.
-3. Implement and test your changes.
-4. Push changes to GitHub.
-5. Create a Pull Request.
-6. Review and merge approved changes.
+### Repository Structure
+Each development track is responsible for organizing its own folders and files within its branch.
 
-## Technologies
+The repository currently uses the following branches:
 
-To be determined during the development phase.
+- `main` — Stable project version.
+- `develop` — Main integration branch.
+- `ai` — AI development.
+- `backend` — Backend development.
+- `frontend` — Frontend development.
+- `ui-ux` — UI/UX design.
+- `security` — Security development.
+- `network` — Networking development.
+- `embedded` — Embedded systems development.
 
-## Project Status
+### Branching and Collaboration Workflow
+1. Each track works on its designated branch.
+2. For a specific task, create a feature branch from the relevant track branch.
+3. Push changes to GitHub.
+4. Open a Pull Request to merge the feature branch into its track branch.
+5. Integrate completed track work into `develop` through Pull Requests.
+6. Merge tested and approved releases from `develop` into `main`.
 
-Initial Setup and Planning Phase.
+**Important:** Direct changes to `main` are restricted by repository rules.
 
-## Team
+### Project Status
+This project is currently under development as part of a university graduation project.
 
-Palm Pay Graduation Project Team
+### Contributors
+The project is developed collaboratively by a multidisciplinary student team across AI, software development, security, networking, and embedded systems.
 
----
 
-Academic Graduation Project
