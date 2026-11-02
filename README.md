@@ -46,7 +46,7 @@ The project may involve the following technology areas, depending on implementat
 ### Dataset and Research
 The project uses the **Tongji Contactless Palmprint and Palm Vein Dataset** as an initial research dataset.
 
-Dataset source: https://cslinzhang.github.io/ContactlessPalm/
+Dataset source: 
 
 Additional datasets or collected samples may be considered during later stages, subject to availability and compatibility.
 
